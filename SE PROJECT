@@ -1,0 +1,33 @@
+import java.util.Scanner;
+
+class EmergencySupport {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Simulating a user requesting emergency support
+        System.out.println("Press any key to request emergency support...");
+        scanner.nextLine();
+
+        // Simulating the app initiating emergency procedures
+        initiateEmergencySupport();
+
+        // Simulating the user feeling safe and canceling the emergency request
+        System.out.println("Press any key to cancel the emergency request...");
+        scanner.nextLine();
+
+        // Simulating the app canceling the emergency procedures
+        cancelEmergencySupport();
+    }
+
+    private static void initiateEmergencySupport() {
+        // Code to initiate emergency support operations
+        System.out.println("Emergency support initiated. Contacting emergency services...");
+        // Add any additional code here, such as notifying authorities or sending notifications to emergency contacts.
+    }
+
+    private static void cancelEmergencySupport() {
+        // Code to cancel emergency support operations
+        System.out.println("Emergency support canceled. Resuming normal operations...");
+        // Add any additional code here, such as stopping notifications or clearing emergency-related data.
+    }
+}
